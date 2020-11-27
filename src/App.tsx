@@ -1,13 +1,14 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
 import Types from './components/Types'
 import Functions from './components/Functions';
+import { Head } from './components/Head';
+
 function App() {
   return (
     <div className="App">
-
-        <Types />
+        <Head/>
+        <Types /> 
         <Functions />
     </div>
   );
