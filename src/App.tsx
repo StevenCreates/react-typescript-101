@@ -7,9 +7,9 @@ import { Head } from './components/Head';
 function App() {
   return (
     <div className="App">
-        <Head title="Hello" isActive={true}/>
-        <Types />
-        <Functions />
+      <Head title="Hello" />
+      <Types />
+      <Functions />
     </div>
   );
 }
