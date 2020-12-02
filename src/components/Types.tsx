@@ -7,7 +7,7 @@ const Types = () => {
     const age: number = 30
     const myArr: number[] = [0, 1, 2, 3]
     const value = isOpen ? 'true' : 'false'
-    const spinner: 'Loading' | 'loaded'
+    // const spinner: 'Loading' | 'loaded'
 
     return (
         <div>
