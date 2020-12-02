@@ -8,7 +8,7 @@ function App() {
   return (
     <div className="App">
         <Head title="Hello" isActive={true}/>
-        <Types /> 
+        <Types />
         <Functions />
     </div>
   );
