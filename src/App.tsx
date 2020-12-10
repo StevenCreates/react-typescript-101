@@ -4,6 +4,7 @@ import Types from './components/Types'
 import Functions from './components/Functions';
 import { Head } from './components/Head';
 import { Button } from './components/Button';
+import { Input } from './components/Input';
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
       <Types />
       <Functions />
       <Button onClick={() => console.log('hi ello')} />
+      <Input />
     </div>
   );
 }
