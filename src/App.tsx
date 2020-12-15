@@ -5,6 +5,7 @@ import Functions from './components/Functions';
 import { Head } from './components/Head';
 import { Button } from './components/Button';
 import { Input } from './components/Input';
+import { ReducerButtons } from './components/ReducerButtons';
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
       <Functions />
       <Button onClick={() => console.log('hi ello')} />
       <Input />
+      <ReducerButtons />
     </div>
   );
 }
